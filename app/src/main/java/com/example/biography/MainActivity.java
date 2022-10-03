@@ -283,7 +283,7 @@ public class MainActivity extends AppCompatActivity implements BiographyAdapter.
                 "In the beginning, of her journey, she uses to teach poor kids using a stick by writing on the ground. But after years of struggle, she finally manages to arrange the necessary things for teaching with the help of volunteers and some teachers.\n" +
                 "\n" +
                 "Later on, she established a dispensary for poor people to die in peace. Due to her good deeds, she earns great respect in the heart of Indians."));
-        list.add(new BiographyModel(R.drawable.nitesh,"Nitesh Kumar","Still Loading........."));
+        list.add(new BiographyModel(R.drawable.nitesh,"Nitesh Kumar","Android developer"));
       BiographyAdapter adapter=new BiographyAdapter(list,this);
        recyclerView.setAdapter(adapter);
        adapter.setOnItemClickListener(MainActivity.this);
